@@ -32,6 +32,8 @@ class ViewController: UIViewController {
     //IBActions
 
     @IBAction func sendMessageButtonPressed(sender: UIButton) {
+        // Comment to test a commit!
+        
         messageLabel.hidden = false
         var myMessage = "Dear \(enterNameTextField.text). \(enterMessageTextField.text)"
         
